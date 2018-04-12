@@ -12,6 +12,7 @@ t = irisTargets(1,:)'; % setosa vs all the rest
 
 %CLASSIFICATION
 % Perceptron (by hand)
+% Check correct code on solutions (this did not work)
 sigma = @(x, w)(1 ./ (1 + exp(-x * w))); % defined the activation function sigma
 
 N = size(x, 1);
